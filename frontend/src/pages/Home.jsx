@@ -103,7 +103,7 @@ const Home = () => {
 
   <button className="add-book-btn" onClick={addBook}>+</button>
 
-  <div className="table-container"> {/* Add this container */}
+  <div className="table-container"> 
     <table>
       <thead>
         <tr>
@@ -177,7 +177,7 @@ const Home = () => {
         ))}
       </tbody>
     </table>
-  </div> {/* Close the table container */}
+  </div>
 
   <button className="submit-btn" onClick={handleSubmit}>Submit</button>
 </div>
